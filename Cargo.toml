@@ -6,7 +6,7 @@ authors = ["Fischer <lolhampton2@gmail.com>"]
 description = "Attribute macro that wraps function bodies in an unsafe block, avoiding redundant unsafe blocks"
 license = "MIT"
 keywords = ["trust-me"]
-repository = "https://github.com/yourusername/my_macros"
+repository = "https://github.com/fischer36/trust-me-2/"
 readme = "README.md"
 
 [dependencies]
