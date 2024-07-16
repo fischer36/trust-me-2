@@ -1,0 +1,18 @@
+[package]
+name = "trust-me-2"
+version = "0.1.0"
+edition = "2021"
+authors = ["Fischer <lolhampton2@gmail.com>"]
+description = "Attribute macro that wraps function bodies in an unsafe block, avoiding redundant unsafe blocks"
+license = "MIT"
+keywords = ["trust-me"]
+repository = "https://github.com/yourusername/my_macros"
+readme = "README.md"
+
+[dependencies]
+syn = { version = "1.0", features = ["full"] }
+quote = "1.0"
+
+[lib]
+proc-macro = true
+
