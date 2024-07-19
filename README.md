@@ -1,6 +1,14 @@
 # Trust Me 2
-"Trust-me-2" is an attribute macro that allows functions unsafe access without requiring any redundant unsafe blocks, even for calling the function. The "two" represents the cutting-edge improvement from existing trust-me macros that still requires redundant {} blocks. 
+An attribute macro that adds an **unsafe** block around a function body. Inspired by the iconic [Trust Me Macro](https://www.youtube.com/watch?v=TGfQu0bQTKc), the additional '2' represents the **cutting-edge** improvement from pre-existing unsafe macros that still requires a {} block.
 ## Usage
-- cargo add trust-me-2
-- then simply mark any function with `#[trust_me]`. Refer to the example for further clarification.
-- [crates.io](https://crates.io/crates/trust-me-2)
+- Install
+```Bash
+cargo add trust-me-2
+```
+- Add attribute
+```Rust
+#[trust_me]
+fn secretly_unsafe() {
+    // Unsafe code 
+}
+```

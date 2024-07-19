@@ -1,11 +1,11 @@
 [package]
 name = "trust-me-2"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 authors = ["Fischer <lolhampton2@gmail.com>"]
-description = "Attribute macro that wraps function bodies in an unsafe block, avoiding required redundant unsafe blocks."
+description = "A convenient macro to tell the Rust compiler that you know better and to leave you alone regarding unsafe code."
 license = "MIT"
-keywords = ["trust-me"]
+keywords = ["trust-me", "unsafe", "macro"]
 repository = "https://github.com/fischer36/trust-me-2/"
 readme = "README.md"
 
